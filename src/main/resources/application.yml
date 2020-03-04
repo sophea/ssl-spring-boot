@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: application
+---
+server:
+  ssl:
+    key-store: classpath:dev.localhost.com.p12
+    key-store-password: password
+    key-store-type: pkcs12
+#    key-alias: tomcat
+    key-password: password
+  port: 8443
