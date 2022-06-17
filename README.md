@@ -4,8 +4,8 @@ This project is a demo springboot app with SSL HTTPs configuration
 
 # Prerequisites
 
-* Java 1.8
-* Spring boot 2.x.x
+* Java 11 or later
+* Spring boot 2.7.x
 * openssl Tool
 * Java keytool utility
 
