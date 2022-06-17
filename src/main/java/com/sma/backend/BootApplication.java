@@ -3,9 +3,10 @@ package com.sma.backend;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/***
- * @Author Sophea Mak sopheamak@gmail.com
- * @Since March-2020
+/**
+ * SpringBootApplication main application.
+ * @author Sophea Mak sopheamak@gmail.com
+ * @since March-2020
  */
 @SpringBootApplication
 public class BootApplication {

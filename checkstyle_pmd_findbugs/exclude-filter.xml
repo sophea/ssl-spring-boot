@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+  ~ Created under not commercial project "Make it fine"
+  ~
+  ~  Copyright 2017-2021
+  -->
+<FindBugsFilter>
+
+    <Match>
+        <Or>
+            <Bug pattern="EI_EXPOSE_REP2"/>
+            <Bug pattern="EI_EXPOSE_REP"/>
+            <Bug pattern="SIC_INNER_SHOULD_BE_STATIC_NEEDS_THIS"/>
+            <Bug pattern="BC_UNCONFIRMED_CAST"/>
+            <Bug pattern="NM_CONFUSING"/>
+            <Bug pattern="SE_NO_SERIALVERSIONID"/>
+            <Bug pattern="SIC_INNER_SHOULD_BE_STATIC_ANON"/>
+            <Bug pattern="NP_LOAD_OF_KNOWN_NULL_VALUE"/>
+            <Bug pattern="DMI_HARDCODED_ABSOLUTE_FILENAME"/>
+            <Bug pattern="DE_MIGHT_IGNORE"/>
+            <Bug pattern="REC_CATCH_EXCEPTION"/>
+
+        </Or>
+    </Match>
+</FindBugsFilter>
