@@ -75,8 +75,7 @@
                         <id>checkstyle-validation</id>
                         <phase>validate</phase>
                         <inherited>true</inherited>
-                        <configuration>
-                            <!-- <configLocation>io/spring/javaformat/checkstyle/checkstyle.xml</configLocation>-->
+                        <configuration>                         
                             <configLocation>${configs}/springboot-checkstyle.xml</configLocation>
                             <includeTestSourceDirectory>false</includeTestSourceDirectory>
                         </configuration>
@@ -91,8 +90,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
                 <version>3.13.0</version>
-                <configuration>
-                    <!--                    <targetJdk>11</targetJdk>-->
+                <configuration>                
                     <minimumTokens>30</minimumTokens>
                     <linkXRef>false</linkXRef>
                     <format>xml</format>
@@ -108,8 +106,6 @@
                         <phase>package</phase>
                         <goals>
                             <goal>pmd</goal>
-                            <!--                            <goal>cpd</goal>-->
-                            <!--                            <goal>cpd-check</goal>-->
                             <goal>check</goal>
                         </goals>
                     </execution>
